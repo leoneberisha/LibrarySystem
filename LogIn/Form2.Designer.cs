@@ -97,24 +97,28 @@
             this.huazimetToolStripMenuItem.Name = "huazimetToolStripMenuItem";
             this.huazimetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.huazimetToolStripMenuItem.Text = "Huazimet";
+            this.huazimetToolStripMenuItem.Click += new System.EventHandler(this.huazimetToolStripMenuItem_Click);
             // 
             // autoretToolStripMenuItem
             // 
             this.autoretToolStripMenuItem.Name = "autoretToolStripMenuItem";
             this.autoretToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.autoretToolStripMenuItem.Text = "Autoret";
+            this.autoretToolStripMenuItem.Click += new System.EventHandler(this.autoretToolStripMenuItem_Click);
             // 
             // kategoriteToolStripMenuItem
             // 
             this.kategoriteToolStripMenuItem.Name = "kategoriteToolStripMenuItem";
             this.kategoriteToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.kategoriteToolStripMenuItem.Text = "Kategorite";
+            this.kategoriteToolStripMenuItem.Click += new System.EventHandler(this.kategoriteToolStripMenuItem_Click);
             // 
             // libraAktiveToolStripMenuItem
             // 
             this.libraAktiveToolStripMenuItem.Name = "libraAktiveToolStripMenuItem";
             this.libraAktiveToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.libraAktiveToolStripMenuItem.Text = "Libra Aktive";
+            this.libraAktiveToolStripMenuItem.Click += new System.EventHandler(this.libraAktiveToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
