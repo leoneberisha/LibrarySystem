@@ -110,6 +110,18 @@ namespace LogIn
                 dataGridView1.DataSource = table;
             }
         }
+
+        private void libratToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();  
+            form2.ShowDialog();
+        }
+
+        private void huazimetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
+        }
     }
     } 
 
