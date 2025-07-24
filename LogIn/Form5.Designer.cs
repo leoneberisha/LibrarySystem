@@ -102,12 +102,14 @@
             this.kategoriteToolStripMenuItem.Name = "kategoriteToolStripMenuItem";
             this.kategoriteToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.kategoriteToolStripMenuItem.Text = "Kategorite";
+            this.kategoriteToolStripMenuItem.Click += new System.EventHandler(this.kategoriteToolStripMenuItem_Click);
             // 
             // libraAktiveToolStripMenuItem
             // 
             this.libraAktiveToolStripMenuItem.Name = "libraAktiveToolStripMenuItem";
             this.libraAktiveToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.libraAktiveToolStripMenuItem.Text = "Libra Aktive";
+            this.libraAktiveToolStripMenuItem.Click += new System.EventHandler(this.libraAktiveToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
