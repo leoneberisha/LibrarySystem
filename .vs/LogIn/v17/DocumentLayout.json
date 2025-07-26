@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|c:\\users\\admin\\onedrive\\desktop\\librarysystem\\login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|c:\\users\\admin\\onedrive\\desktop\\librarysystem\\login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|c:\\users\\admin\\onedrive\\desktop\\librarysystem\\login\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,22 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Form6.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form6.cs",
+              "RelativeDocumentMoniker": "LogIn\\Form6.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form6.cs",
+              "RelativeToolTip": "LogIn\\Form6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T23:18:04.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form2.cs",
               "RelativeDocumentMoniker": "LogIn\\Form2.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form2.cs [Design]",
               "RelativeToolTip": "LogIn\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T19:36:45.725Z"
+              "WhenOpened": "2025-07-23T19:36:45.725Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form5.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form5.cs",
               "RelativeDocumentMoniker": "LogIn\\Form5.cs",
@@ -53,12 +71,11 @@
               "RelativeToolTip": "LogIn\\Form5.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAuwDQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T19:36:40.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T19:36:40.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form6.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form6.cs",
               "RelativeDocumentMoniker": "LogIn\\Form6.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form7.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form7.cs",
               "RelativeDocumentMoniker": "LogIn\\Form7.cs",
@@ -81,15 +98,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form5.cs",
               "RelativeDocumentMoniker": "LogIn\\Form5.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form5.cs [Design]",
               "RelativeToolTip": "LogIn\\Form5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T19:46:06.472Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-21T19:46:06.472Z"
             }
           ]
         }

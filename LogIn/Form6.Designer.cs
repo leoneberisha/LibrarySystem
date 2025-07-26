@@ -154,6 +154,7 @@
             this.libratToolStripMenuItem.Name = "libratToolStripMenuItem";
             this.libratToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
             this.libratToolStripMenuItem.Text = "Librat";
+            this.libratToolStripMenuItem.Click += new System.EventHandler(this.libratToolStripMenuItem_Click);
             // 
             // studentetToolStripMenuItem
             // 
