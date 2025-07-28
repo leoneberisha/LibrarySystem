@@ -161,12 +161,14 @@
             this.studentetToolStripMenuItem.Name = "studentetToolStripMenuItem";
             this.studentetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.studentetToolStripMenuItem.Text = "Studentet";
+            this.studentetToolStripMenuItem.Click += new System.EventHandler(this.studentetToolStripMenuItem_Click);
             // 
             // huazimetToolStripMenuItem
             // 
             this.huazimetToolStripMenuItem.Name = "huazimetToolStripMenuItem";
             this.huazimetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.huazimetToolStripMenuItem.Text = "Huazimet";
+            this.huazimetToolStripMenuItem.Click += new System.EventHandler(this.huazimetToolStripMenuItem_Click);
             // 
             // autoretToolStripMenuItem
             // 
