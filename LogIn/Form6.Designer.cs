@@ -189,6 +189,7 @@
             this.libraAktiveToolStripMenuItem.Name = "libraAktiveToolStripMenuItem";
             this.libraAktiveToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.libraAktiveToolStripMenuItem.Text = "Libra Aktive";
+            this.libraAktiveToolStripMenuItem.Click += new System.EventHandler(this.libraAktiveToolStripMenuItem_Click);
             // 
             // Form6
             // 
