@@ -86,5 +86,70 @@ namespace LogIn
                 LoadBibloteka();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    string query = "UPDATE librat SET id_kategori=@id_kategori,id_autor=@id_autor,titulli=@titulli,numri_libres=@numri_libres,stoku=@stoku,cmimi=@cmimi,aktiv=@aktiv WHERE id=@id";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@id_kategori", comboBox1.Text);
+                    cmd.Parameters.AddWithValue("@id_autor", comboBox2.Text);
+                    cmd.Parameters.AddWithValue("@titulli", textBox1.Text);
+                    cmd.Parameters.AddWithValue("@numri_libres", textBox2.Text);
+                    cmd.Parameters.AddWithValue("@stoku", textBox3.Text);
+                    string cmimiValue = checkBox1.Checked ? "Falas" : textBox4.Text;
+                    cmd.Parameters.AddWithValue("@cmimi", cmimiValue);
+                    cmd.Parameters.AddWithValue("@aktiv", radioButton1.Checked ? "po" : "jo");
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    LoadBibloteka();
+                }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+
+                {
+                    string query = "DELETE FROM librat WHERE id=@id";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    LoadBibloteka();
+
+                }
+
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT id, id_kategori AS 'Kategoria', id_autor AS 'Autori librit', titulli AS 'Titulli i librit', numri_libres AS 'Numri librit', stoku AS 'Stoku', cmimi AS 'Cmimi', aktiv AS 'Aktiv' FROM librat where titulli LIKE @kerko";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@kerko", "%" + textBox5.Text + "%");
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                dataGridView1.DataSource = table;
+
+
+
+            }
+        }
     }
 }
