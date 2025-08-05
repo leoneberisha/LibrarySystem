@@ -35,24 +35,22 @@ namespace LogIn
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (MySqlConnection conn = new MySqlConnection(connectionString)) 
-                {
-                    string query= "INSERT INTO student(emri, nr_student, telefon, drejtim, email, gjini) VALUES(@emri,@nr_student,@telefon,@drejtim,@email,@gjini)";
-                    MySqlCommand cmd = new MySqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@emri", textBox1.Text);
-                    cmd.Parameters.AddWithValue("@nr_student", textBox2.Text);
-                    cmd.Parameters.AddWithValue("@telefon", textBox3.Text);
-                    cmd.Parameters.AddWithValue("@drejtim", textBox4.Text);
-                    cmd.Parameters.AddWithValue("@email", textBox5.Text);
-                    cmd.Parameters.AddWithValue("@gjini", radioButton1.Checked ? "M" : "F'");
-
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                    conn.Close();
-                    Loadbibloteka();
-                }
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "INSERT INTO student(emri,nr_student,telefon,drejtim,email,gjini) VALUES(@emri,@nr_student,@telefon,@drejtim,@email,@gjini) ";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@emri", textBox1.Text);
+                cmd.Parameters.AddWithValue("@nr_student", textBox2.Text);
+                cmd.Parameters.AddWithValue("@telefon", textBox3.Text);
+                cmd.Parameters.AddWithValue("@drejtim", textBox4.Text);
+                cmd.Parameters.AddWithValue("@email", textBox5.Text);
+                cmd.Parameters.AddWithValue("@gjini", radioButton1.Checked ? "M" : "F");
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                Loadbibloteka();
             }
-
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
