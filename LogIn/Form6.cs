@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace LogIn
 {
     public partial class Form6 : Form
     {
+        string connectionString = "server=localhost; database=biblotek;uid=root;pwd=''";
+            
         public Form6()
         {
             InitializeComponent();
@@ -55,7 +59,10 @@ namespace LogIn
 
         private void button1_Click(object sender, EventArgs e)
         {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
 
-        }
+            }
+            }
     }
 }
