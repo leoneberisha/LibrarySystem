@@ -200,7 +200,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(308, 106);
+            this.dataGridView1.Size = new System.Drawing.Size(481, 106);
             this.dataGridView1.TabIndex = 3;
             // 
             // contextMenuStrip1
@@ -213,14 +213,14 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(497, 65);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(227, 22);
+            this.textBox3.Size = new System.Drawing.Size(401, 22);
             this.textBox3.TabIndex = 5;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(730, 64);
+            this.button4.Location = new System.Drawing.Point(904, 64);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(74, 23);
             this.button4.TabIndex = 6;
             this.button4.Text = "Kerko";
             this.button4.UseVisualStyleBackColor = true;
