@@ -283,7 +283,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 482);
+            this.dataGridView1.Location = new System.Drawing.Point(405, 97);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -292,14 +292,14 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(50, 446);
+            this.textBox6.Location = new System.Drawing.Point(415, 61);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(563, 22);
             this.textBox6.TabIndex = 16;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(636, 446);
+            this.button4.Location = new System.Drawing.Point(1001, 61);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(82, 30);
             this.button4.TabIndex = 17;
