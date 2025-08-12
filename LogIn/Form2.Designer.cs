@@ -78,48 +78,48 @@
             this.libraAktiveToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1055, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1198, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // libratToolStripMenuItem
             // 
             this.libratToolStripMenuItem.Name = "libratToolStripMenuItem";
-            this.libratToolStripMenuItem.Size = new System.Drawing.Size(61, 26);
+            this.libratToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
             this.libratToolStripMenuItem.Text = "Librat";
             // 
             // studentetToolStripMenuItem
             // 
             this.studentetToolStripMenuItem.Name = "studentetToolStripMenuItem";
-            this.studentetToolStripMenuItem.Size = new System.Drawing.Size(87, 26);
+            this.studentetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.studentetToolStripMenuItem.Text = "Studentet";
             this.studentetToolStripMenuItem.Click += new System.EventHandler(this.studentetToolStripMenuItem_Click);
             // 
             // huazimetToolStripMenuItem
             // 
             this.huazimetToolStripMenuItem.Name = "huazimetToolStripMenuItem";
-            this.huazimetToolStripMenuItem.Size = new System.Drawing.Size(87, 26);
+            this.huazimetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.huazimetToolStripMenuItem.Text = "Huazimet";
             this.huazimetToolStripMenuItem.Click += new System.EventHandler(this.huazimetToolStripMenuItem_Click);
             // 
             // autoretToolStripMenuItem
             // 
             this.autoretToolStripMenuItem.Name = "autoretToolStripMenuItem";
-            this.autoretToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
+            this.autoretToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.autoretToolStripMenuItem.Text = "Autoret";
             this.autoretToolStripMenuItem.Click += new System.EventHandler(this.autoretToolStripMenuItem_Click);
             // 
             // kategoriteToolStripMenuItem
             // 
             this.kategoriteToolStripMenuItem.Name = "kategoriteToolStripMenuItem";
-            this.kategoriteToolStripMenuItem.Size = new System.Drawing.Size(93, 26);
+            this.kategoriteToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.kategoriteToolStripMenuItem.Text = "Kategorite";
             this.kategoriteToolStripMenuItem.Click += new System.EventHandler(this.kategoriteToolStripMenuItem_Click);
             // 
             // libraAktiveToolStripMenuItem
             // 
             this.libraAktiveToolStripMenuItem.Name = "libraAktiveToolStripMenuItem";
-            this.libraAktiveToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
+            this.libraAktiveToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.libraAktiveToolStripMenuItem.Text = "Libra Aktive";
             this.libraAktiveToolStripMenuItem.Click += new System.EventHandler(this.libraAktiveToolStripMenuItem_Click);
             // 
@@ -334,7 +334,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(24, 508);
+            this.dataGridView1.Location = new System.Drawing.Point(488, 95);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -344,7 +344,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(550, 468);
+            this.button1.Location = new System.Drawing.Point(1014, 55);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 34);
             this.button1.TabIndex = 14;
@@ -355,7 +355,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(24, 468);
+            this.textBox4.Location = new System.Drawing.Point(488, 55);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(519, 34);
             this.textBox4.TabIndex = 15;
@@ -365,7 +365,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1055, 670);
+            this.ClientSize = new System.Drawing.Size(1198, 670);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
