@@ -127,21 +127,21 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(21, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(574, 457);
+            this.groupBox1.Size = new System.Drawing.Size(724, 457);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Huazimet";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(25, 320);
+            this.textBox2.Location = new System.Drawing.Point(26, 283);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(383, 22);
+            this.textBox2.Size = new System.Drawing.Size(439, 22);
             this.textBox2.TabIndex = 20;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(411, 319);
+            this.button4.Location = new System.Drawing.Point(471, 282);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 19;
@@ -151,7 +151,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(25, 362);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 311);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
