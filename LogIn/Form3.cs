@@ -103,7 +103,7 @@ namespace LogIn
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@kerko", "%" + textBox6.Text + "%");
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
-               DataTable table = new DataTable();
+                DataTable table = new DataTable();
                 adapter.Fill(table);
                 dataGridView1.DataSource = table;
             }
@@ -114,7 +114,11 @@ namespace LogIn
             Form2 form2 = new Form2();  
             form2.ShowDialog();
         }
-
+        private void studentetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+        }
         private void huazimetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
@@ -138,6 +142,8 @@ namespace LogIn
             Form7 form7 = new Form7();  
             form7.ShowDialog();
         }
+
+        
     }
     } 
 

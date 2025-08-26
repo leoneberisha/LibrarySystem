@@ -87,6 +87,7 @@
             this.studentetToolStripMenuItem.Name = "studentetToolStripMenuItem";
             this.studentetToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.studentetToolStripMenuItem.Text = "Studentet";
+            this.studentetToolStripMenuItem.Click += new System.EventHandler(this.studentetToolStripMenuItem_Click);
             // 
             // huazimetToolStripMenuItem
             // 
