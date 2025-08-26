@@ -54,7 +54,16 @@ namespace LogIn
                 int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
                 using (MySqlConnection conn = new MySqlConnection(connectionString))
                 {
-                     
+                    string query = "UPDATE huazimet SET (id_libri= @id_libri ,id_student=@id_student, data_marrje=@data_marrje, data_kthimi=@data_kthimi";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id_libri", textBox1.Text);
+                    cmd.Parameters.AddWithValue("@id_student", textBox2.Text);
+                    cmd.Parameters.AddWithValue("@data_marrje", dateTimePicker1);
+                    cmd.Parameters.AddWithValue("@data_kthimi", dateTimePicker2);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    Loadbibloteka();
                 }
             }
         }
