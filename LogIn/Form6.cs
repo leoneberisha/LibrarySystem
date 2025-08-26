@@ -15,7 +15,19 @@ namespace LogIn
     public partial class Form6 : Form
     {
         string connectionString = "server=localhost; database=biblotek;uid=root;pwd=''";
-            
+
+        private void Loadbibloteka()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT id,emri AS Emri, nr_student AS NrStudentit, telefon AS Telefoni, drejtim AS Drejtimi, email AS Emaili, gjini AS Gjinia FROM student";
+                MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                dataGridView1.DataSource = table;
+
+            }
+        }
         public Form6()
         {
             InitializeComponent();
@@ -61,8 +73,14 @@ namespace LogIn
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-
+                string query = "INSERT INTO kategori(id_kategoris) VALUES (@id_kategoris)";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@id_kategoris",textBox1.Text);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                Loadbibloteka();
             }
-            }
+        }
     }
 }
