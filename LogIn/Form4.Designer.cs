@@ -99,6 +99,7 @@
             this.autoretToolStripMenuItem.Name = "autoretToolStripMenuItem";
             this.autoretToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.autoretToolStripMenuItem.Text = "Autoret";
+            this.autoretToolStripMenuItem.Click += new System.EventHandler(this.autoretToolStripMenuItem_Click);
             // 
             // kategoriteToolStripMenuItem
             // 
