@@ -7,11 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace LogIn
 {
     public partial class Form5 : Form
     {
+        string connectionString = "server=localhost; database=biblotek;uid=root;pwd=''";
+
+        private void Loadbibloteka()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT id,emriautorit,idautorit FROM autoret";
+                MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                dataGridView1.DataSource = table;
+
+            }
+        }
         public Form5()
         {
             InitializeComponent();
