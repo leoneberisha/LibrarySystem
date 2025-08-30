@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace LogIn
 {
     public partial class Form7 : Form
     {
+        string connectionString = "server=localhost; database=biblotek;uid=root;pwd=''";
+
         public Form7()
         {
             InitializeComponent();
@@ -51,6 +54,11 @@ namespace LogIn
         {
             Form7 form7 = new Form7();
             form7.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
