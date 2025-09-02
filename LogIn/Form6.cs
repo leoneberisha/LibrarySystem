@@ -20,7 +20,7 @@ namespace LogIn
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string query = "SELECT id,emri AS Emri, nr_student AS NrStudentit, telefon AS Telefoni, drejtim AS Drejtimi, email AS Emaili, gjini AS Gjinia FROM student";
+                string query = "SELECT id,id_kategoris FROM kategori";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
@@ -85,7 +85,43 @@ namespace LogIn
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    string query = "UPDATE kategori SET id_kategoris=@id_kategoris";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.Parameters.AddWithValue("@id_kategori", textBox1.Text);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    Loadbibloteka();
 
+
+                }
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    string query = "DELETE FROM kategori Where id=@id";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    Loadbibloteka();
+                }
+            }
         }
     }
 }
