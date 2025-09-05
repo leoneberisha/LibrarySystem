@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|c:\\users\\admin\\onedrive\\desktop\\librarysystem\\login\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|c:\\users\\admin\\onedrive\\desktop\\librarysystem\\login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F67B2C2-2388-49EE-B243-D1BE33E6B746}|LogIn\\LibrarySystem.csproj|solutionrelative:login\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -85,8 +85,7 @@
               "ViewState": "AgIAAGMAAAAAAAAAAAAAwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T23:18:04.793Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -143,8 +142,7 @@
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form3.cs [Design]",
               "RelativeToolTip": "LogIn\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T16:10:09.019Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-05T16:10:09.019Z"
             },
             {
               "$type": "Document",
@@ -155,8 +153,7 @@
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\LibrarySystem\\LogIn\\Form2.cs [Design]",
               "RelativeToolTip": "LogIn\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T19:36:45.725Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-23T19:36:45.725Z"
             },
             {
               "$type": "Document",
@@ -202,8 +199,7 @@
               "RelativeToolTip": "LogIn\\Form2.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowBUAAADdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T18:54:17.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T18:54:17.074Z"
             }
           ]
         }
