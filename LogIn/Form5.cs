@@ -64,7 +64,7 @@ namespace LogIn
 
         private void libraAktiveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();  
+            Form7 form7 = new Form7();
             form7.ShowDialog();
         }
 
@@ -75,7 +75,57 @@ namespace LogIn
 
         private void button1_Click(object sender, EventArgs e)
         {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "INSERT INTO autoret(idautor,emri_autor) VALUES (@dautor,@emri_autor)";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@idautor", textBox1);
+                cmd.Parameters.AddWithValue("@emri_autor", textBox2);
 
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    string query = "UPDATE autoret SET idautor=@idautor, emri_autor=@emri_autor";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@idautor", textBox1);
+                    cmd.Parameters.AddWithValue("@emri_autor", textBox2);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    Loadbibloteka();
+                }
+
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["id"].Value);
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+
+                {
+                    string query = "DELETE FROM autoret WHERE id=@id";
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@id", id);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                    Loadbibloteka();
+
+                }
+
+
+            }
         }
     }
 }
