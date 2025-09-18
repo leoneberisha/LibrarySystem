@@ -156,7 +156,18 @@ namespace LogIn
 
         private void button4_Click(object sender, EventArgs e)
         {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string query = "INSERT INTO librat(id_kategori,id_autor,titulli,numri_libres,stoku,cmimi,aktiv) VALUES (@id_kategori,@id_autor,@titulli,@numri_libres,@stoku,@cmimi,@aktiv)";
+                 MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@id_kategori", textBox1);
+                cmd.Parameters.AddWithValue("@id_autor",textBox2);
+                cmd.Parameters.AddWithValue("@titulli", textBox3);
+                cmd.Parameters.AddWithValue("@numri_libres", textBox4);
+                cmd.Parameters.AddWithValue("@stoku", textBox5);
+                cmd.Parameters.AddWithValue("@aktiv", radioButton1.Checked ? "PO" : "JO");
 
-        }
+            }
+            }
     }
 }
