@@ -159,7 +159,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(263, 295);
+            this.radioButton2.Location = new System.Drawing.Point(245, 287);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(60, 29);
             this.radioButton2.TabIndex = 37;
@@ -170,7 +170,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(168, 295);
+            this.radioButton1.Location = new System.Drawing.Point(166, 287);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(62, 29);
             this.radioButton1.TabIndex = 36;
@@ -323,7 +323,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(488, 95);
+            this.dataGridView1.Location = new System.Drawing.Point(488, 112);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
