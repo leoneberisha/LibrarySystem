@@ -78,8 +78,7 @@ namespace LogIn
                 cmd.Parameters.AddWithValue("@titulli", textBox1.Text);
                 cmd.Parameters.AddWithValue("@numri_libres", textBox2.Text);
                 cmd.Parameters.AddWithValue("@stoku", textBox3.Text);
-                string cmimiValue = checkBox1.Checked ? "Falas" : textBox4.Text;
-                cmd.Parameters.AddWithValue("@cmimi", cmimiValue);
+                cmd.Parameters.AddWithValue("@cmimi", textBox4.Text);
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
@@ -102,8 +101,7 @@ namespace LogIn
                     cmd.Parameters.AddWithValue("@titulli", textBox1.Text);
                     cmd.Parameters.AddWithValue("@numri_libres", textBox2.Text);
                     cmd.Parameters.AddWithValue("@stoku", textBox3.Text);
-                    string cmimiValue = checkBox1.Checked ? "Falas" : textBox4.Text;
-                    cmd.Parameters.AddWithValue("@cmimi", cmimiValue);
+                    cmd.Parameters.AddWithValue("@cmimi", textBox4);
                     cmd.Parameters.AddWithValue("@aktiv", radioButton1.Checked ? "po" : "jo");
                     conn.Open();
                     cmd.ExecuteNonQuery();
@@ -163,8 +161,8 @@ namespace LogIn
                 cmd.Parameters.AddWithValue("@id_kategori", textBox1);
                 cmd.Parameters.AddWithValue("@id_autor",textBox2);
                 cmd.Parameters.AddWithValue("@titulli", textBox3);
-                cmd.Parameters.AddWithValue("@numri_libres", textBox4);
-                cmd.Parameters.AddWithValue("@stoku", textBox5);
+                cmd.Parameters.AddWithValue("@numri_libres", textBox5);
+                cmd.Parameters.AddWithValue("@stoku", textBox4);
                 cmd.Parameters.AddWithValue("@aktiv", radioButton1.Checked ? "PO" : "JO");
 
             }
